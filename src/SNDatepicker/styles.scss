@@ -1,0 +1,36 @@
+@import '../../../../../../styles/dls/index';
+
+.DateInput-container {
+  display: flex;
+  align-items: center;
+  cursor: default;
+  padding: 3px 8px;
+  //border: 1px solid gray;
+  //box-shadow: 0 0 1px gray;
+}
+
+.DateInputPart-container {
+  padding: 2px;
+  margin: 2px;
+}
+
+.DateInputPart-container-focus {
+  background-color: #9ecaed;
+  outline: none;
+}
+
+.DateInputPart-dropdown-focus {
+  border: 1px solid #9ecaed;
+  border-radius: 3px;
+}
+
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently
+                                   supported by Chrome and Opera */
+}
