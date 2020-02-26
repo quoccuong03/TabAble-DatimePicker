@@ -1,7 +1,18 @@
 {
   "name": "tabable-datepicker",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "author": "Angelo Network",
+  "description": "Angelo Network ",
+  "license": "Angelo Network",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quoccuong03/TabAble-DatimePicker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/quoccuong03/TabAble-DatimePicker/issues"
+  },
+  "homepage": "https://github.com/quoccuong03/TabAble-DatimePicker.git",
   "dependencies": {
     "classnames": "^2.2.6",
     "material-design-icons": "^3.0.1",
